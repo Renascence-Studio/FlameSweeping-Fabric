@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "flamesweeping",
+  "version": "${version}",
+  "name": "FlameSweeping",
+  "description": "Tool with Flame Sweeping!",
+  "authors": [
+    "Chemiofitor"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/flamesweeping/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "hlft.fabric.flamesweeping.FlameSweeping"
+    ]
+  },
+  "mixins": [
+    "flamesweeping.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.0",
+    "fabric": "*"
+  }
+}

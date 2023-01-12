@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.6",
+  "package": "hlft.fabric.flamesweeping.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "FireAspectEnchantmentMixin",
+    "LivingEntityMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
