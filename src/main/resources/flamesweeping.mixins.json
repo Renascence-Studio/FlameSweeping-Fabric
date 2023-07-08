@@ -4,7 +4,6 @@
   "package": "hlft.fabric.flamesweeping.mixin",
   "compatibilityLevel": "JAVA_8",
   "mixins": [
-    "FireAspectEnchantmentMixin",
     "LivingEntityMixin"
   ],
   "client": [
